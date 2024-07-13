@@ -1,0 +1,10 @@
+.data msg Hello world!\n end
+
+main:
+	/* you can only create comments inside labels */
+	/* this is in mode 2 "-m2" */
+	move r1 2
+	move r2 1
+	move ta msg
+	sys
+end
